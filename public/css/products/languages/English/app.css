@@ -1,0 +1,5 @@
+body {padding: 50px}
+.thumb-image {width: 50px}
+.update-image {width: 120px}
+
+div > a.btn.btn-secondary {margin-top: 10px; margin-bottom: 10px}
