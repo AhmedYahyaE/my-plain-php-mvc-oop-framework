@@ -52,12 +52,12 @@ GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
 GET /api/products/{id} : Get/Retrieve a Single product
 
-***\*\*Note: You can test the framework API Endpoints using Postman, here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file which you can import in your Postman.***
+***\*\*Note: You can test the framework API Endpoints using Postman. Here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file which you can import in your Postman.***
 
 ## Installation & Configuration:
 1- Clone the project or download it.
 
-2- Create a MySQL database named **\`my_plain_php_mvc_oop_framework\`** and import the database SQL Dump file from [Database SQL Dump file](<Database - my_plain_php_mvc_oop_framework/my_plain_php_mvc_oop_framework database - SQL Dump File - PhpMyAdmin Export.sql>).
+2- Create a MySQL database named **\`my_plain_php_mvc_oop_framework\`** and import the database SQL Dump file [Database SQL Dump file](<Database - my_plain_php_mvc_oop_framework/my_plain_php_mvc_oop_framework database - SQL Dump File - PhpMyAdmin Export.sql>).
 
 3- Navigate to the ***.env*** file [.env](.env) and configure/edit/update it with your MySQL database credentials and other configuration settings.
 
