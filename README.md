@@ -35,7 +35,7 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 
 13- Custom Pagination implementation.
 
-9- CRUD Operations.
+9- Database CRUD Operations Classes.
 
 11- File Upload.
 
