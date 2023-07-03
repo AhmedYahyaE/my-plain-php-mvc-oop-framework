@@ -41,6 +41,7 @@ class ProductsController extends BaseController {
 
         // Application language:
         $languagesArray = ['English', 'Arabic'];
+
         if ($request->isGET() && array_key_exists('language', $request->HTTPRequestBody()) && in_array($request->HTTPRequestBody()['language'], $languagesArray)) { // e.g. GET /products?language=arabic
             if ($request->HTTPRequestBody()['language'] === 'Arabic') {
                 Application::$app->session->setSomethingInSession('language', 'Arabic');
