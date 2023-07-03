@@ -35,13 +35,13 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 
 13- Custom Pagination implementation.
 
-9- Database CRUD Operations Classes.
+14- Database CRUD Operations Classes.
 
-11- File Upload.
+15- File Upload.
 
-12- Registration, Validation, Authentication and Authorization.
+16- Registration, Validation, Authentication and Authorization.
 
-13- Responsive / Mobile first Design using Bootstrap.
+17- Responsive / Mobile first Design using Bootstrap.
 
 ## Application Routes:
 All the application routes are defined in the [index.php](public/index.php) file inside the "public" folder.
