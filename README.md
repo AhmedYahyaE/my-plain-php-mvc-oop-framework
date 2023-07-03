@@ -69,7 +69,7 @@ GET /api/products/{id} : Get/Retrieve a Single product
 
 6- Credentials of a ready-to-use registered user account are:
 
-> **Email**: **ahmed.yahya@example.com**, **Password**: **123456**
+> **Email**: **ahmed.yahya@example.com**, **Password**: **12345678**
 
 ## Contribution:
 Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
