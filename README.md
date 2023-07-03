@@ -59,7 +59,7 @@ GET /api/products/{id} : Get/Retrieve a Single product
 
 2- Create a MySQL database named **\`my_plain_php_mvc_oop_framework\`** and import the database SQL Dump file [Database SQL Dump file](<Database - my_plain_php_mvc_oop_framework/my_plain_php_mvc_oop_framework database - SQL Dump File - PhpMyAdmin Export.sql>).
 
-3- Navigate to the ***.env*** file [.env](.env) and configure/edit/update it with your MySQL database credentials and other configuration settings.
+3- Navigate to the ***.env*** file **[.env](.env)** and configure/edit/update it with your MySQL database credentials and other configuration settings.
 
 4- Navigate to the project "public" folder/directory (where the Entry Point [index.php](public/index.php) file is placed) using the **`cd`** terminal command, and then start your PHP built-in Development Web Server by running the command: **`php -S localhost:8000`**.
 
@@ -72,4 +72,4 @@ GET /api/products/{id} : Get/Retrieve a Single product
 > **Email**: **ahmed.yahya@example.com**, **Password**: **12345678**
 
 ## Contribution:
-Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements,want to add new features or want to contribute code or documentation, please open an issue or submit a pull request.
+Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements, want to add new features or want to contribute code or documentation, please open an issue or submit a pull request.
