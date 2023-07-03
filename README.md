@@ -17,7 +17,7 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 
 4- Custom Autoloading Class (No external Composer Autoloader).
 
-5- Custom DotENV file reader class (No external DotENV file reader package).
+5- Custom DotENV file reader Class (No external DotENV file reader package).
 
 6- Middlewares implementation.
 
