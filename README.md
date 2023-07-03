@@ -72,4 +72,4 @@ GET /api/products/{id} : Get/Retrieve a Single product
 > **Email**: **ahmed.yahya@example.com**, **Password**: **12345678**
 
 ## Contribution:
-Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
+Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements,want to add new features or want to contribute code or documentation, please open an issue or submit a pull request.
