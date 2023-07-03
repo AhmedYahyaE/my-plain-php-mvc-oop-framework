@@ -129,7 +129,7 @@ abstract class DatabaseModel extends BaseModel {
 
         // THERE ARE TWO CASES HERE FOR select() METHOD: FIRST, IF THERE'S A SEARCH, THEN GET/SHOW ONLY WHAT IS SEARCHED FOR ONLY FROM THE DATABASE TABLE, OR SECOND, IF THERE'S NO SEARCH, THEN GET/SHOW EVERTHING IN THE DATABASE TABLE:
         if ($searchBarValue) { // If the user uses the search bar (whether direct search or AJAX Live Search), SELECT ONLY what they are searching for:
-            // Important Note: In PDO, you mustn't bind (use named parameters like :car) with table names, table column names, ORDERBY clause, or ASC/DESC, because named parameters are automatically quoted by PDO and those aforementioned things shouldn'd be quoted in an SQL statement. Check https://stackoverflow.com/questions/38478654/unable-to-run-named-placeholder-for-order-by-asc-in-php-pdo     AND     Check https://stackoverflow.com/questions/4120388/hibernate-named-query-order-by-parameter#:~:text=Not%20supported%2C%20input%20parameters%20are,for%20the%20ORDER%20BY%20clause.
+            // Important Note: In PDO, you mustn't bind (use named parameters like :car) with table names, table column names, ORDERBY clause, or ASC/DESC, because named parameters are automatically quoted by PDO and those aforementioned things shouldn'd be quoted in an SQL statement.
             $statement = Application::$app->database->pdo_connection->prepare("SELECT * FROM {$this->databaseName()}.{$this->databaseTableName()} WHERE $columnToSearchWith LIKE :searchBarValue ORDER BY $orderByColumn $ordering"); // e.g.    SELECT * FROM products WHERE title LIKE iphone ORDER BY create_date DESC;
 
             // Binding the Named Parameters (placeholders):

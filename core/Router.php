@@ -45,7 +45,7 @@ class Router {
 
                 if ($controllerAndMethodArray) {
                     // Start of Activating middlewares script (JUST BEFORE calling the route's dedicated controller and method):
-                    // Middlewares: A middleware is a special class that lives between the HTTP request and the controller, so a middleware can restrict the access of the HTTP request to the controller, or modify the return and response. In this tutorial, the instructor implements the 'AuthMiddleware' which restrics the access of an HTTP request to the controller: Check 4:40:02 in https://www.youtube.com/watch?v=6ERdu4k62wI
+                    // Middlewares: A middleware is a special class that lives between the HTTP request and the controller, so a middleware can restrict the access of the HTTP request to the controller, or modify the return and response.
                     // Middleware cycle: Any controller can register a middleware object using registerAMiddlewareObject() method inside its constructor, then in Router.php class and JUST BEFORE calling a certain route dedicated controller class and method, we loop over that controller class registered middlewares and execute() them
                     Application::$app->baseController->currentlyUsedController = $controllerAndMethodArray[0];
                     Application::$app->baseController->currentlyUsedMethod     = $controllerAndMethodArray[1];
@@ -71,7 +71,7 @@ class Router {
             preg_match_all('/^\/(?:\w+)\/(\w+)$/', $prepared_url, $matches);
 
             // Start of Activating middlewares script (JUST BEFORE calling the route's dedicated controller and method):
-            // Middlewares: A middleware is a special class that lives between the HTTP request and the controller, so a middleware can restrict the access of the HTTP request to the controller, or modify the return and response. In this tutorial, the instructor implements the 'AuthMiddleware' which restrics the access of an HTTP request to the controller: Check 4:40:02 in https://www.youtube.com/watch?v=6ERdu4k62wI
+            // Middlewares: A middleware is a special class that lives between the HTTP request and the controller, so a middleware can restrict the access of the HTTP request to the controller, or modify the return and response.
             // Middleware cycle: Any controller can register a middleware object using registerAMiddlewareObject() method inside its constructor, then in Router.php class and JUST BEFORE calling a certain route dedicated controller class and method, we loop over that controller class registered middlewares and execute() them
             Application::$app->baseController->currentlyUsedController = $controllerAndMethodArray[0];
             Application::$app->baseController->currentlyUsedMethod     = $controllerAndMethodArray[1];
