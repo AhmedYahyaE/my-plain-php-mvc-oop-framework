@@ -21,7 +21,7 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 
 6- Middlewares implementation.
 
-7- Protected Routes (using a custom Authentication Middleware).
+7- Protected Routes (using a custom Authentication Middleware Class).
 
 8- Entry Point/Script index.php file for the whole application.
 
