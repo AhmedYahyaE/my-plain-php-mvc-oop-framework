@@ -48,9 +48,9 @@ All the application routes are defined in the [index.php](public/index.php) file
 
 ## Application API Endpoints:
 
-GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get All produtcs
+GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
-GET /api/products/{id} : Get a Single product
+GET /api/products/{id} : Get/Retrieve a Single product
 
 ***\*\*Note: You can test the framework API Endpoints using Postman, here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file.***
 
@@ -61,14 +61,15 @@ GET /api/products/{id} : Get a Single product
 
 3- Navigate to the ***.env*** file [.env](.env) and configure/edit/update it with your MySQL database credentials and other configuration settings.
 
-4- Navigate to the project "public" folder/directory (where the Entry Point [index.php](public/index.php) file is placed) by using the **`cd`** terminal command, and then start your PHP built-in Development Web Server by running the command: **`php -S localhost:8000`**.
+4- Navigate to the project "public" folder/directory (where the Entry Point [index.php](public/index.php) file is placed) using the **`cd`** terminal command, and then start your PHP built-in Development Web Server by running the command: **`php -S localhost:8000`**.
 
+***\*\*Note: Whatever your Web Server is, you must configure its Web Root Directory to be the application "public" folder which contains the [index.php](public/index.php) file (Entry Point) in order for the Routing System to function properly.***
 
-***\*\*Note: Whatever your Web Server is, you must configure its Web Root Directory to be the application "public" folder which contains the [index.php](public/index.php) file (Entry Point) in order for the application Routing System to function properly.***
+5- In your browser, go to http://localhost:8000/.
 
-5- Here are the ready-to-use registered user account credentials you can readily use is (for both **Frontend** and **Admin Panel**):
+6- Credentials of a ready-to-use registered user account are:
 
-> **Email**: **ahmed.yahya@gmail.com**, **Password**: **123456**
+> **Email**: **ahmed.yahya@example.com**, **Password**: **123456**
 
 ## Contribution:
-Contributions to my plain PHP/MySQL MVC OOP application are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
+Contributions to my personal backend Plain PHP MVC OOP Framework are most welcome! If you find any issues or have suggestions for improvements or want to add new features, please open an issue or submit a pull request.
