@@ -46,7 +46,7 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 ## Application Routes:
 All the application routes are defined in the [index.php](public/index.php) file inside the "public" folder.
 
-## Application API Endpoints:
+## API Endpoints:
 
 GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
