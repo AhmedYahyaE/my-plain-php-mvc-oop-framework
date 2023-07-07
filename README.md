@@ -47,6 +47,7 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 All the application routes are defined in the [index.php](public/index.php) file inside the "public" folder.
 
 ## API Endpoints:
+***\*\*Check my Postman Profile: https://www.postman.com/ahmed-yahya***
 
 GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
