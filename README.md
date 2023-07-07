@@ -53,7 +53,7 @@ GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
 GET /api/products/{id} : Get/Retrieve a Single product
 
-***\*\* Note: You can test the framework API Endpoints using Postman. Here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file you can download and import in your Postman.***
+***\*\* Note: You can test the framework API Endpoints using Postman. Here is the Postman Collection .json file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) you can download and import in your Postman.***
 
 ## Installation & Configuration:
 1- Clone the project or download it.
