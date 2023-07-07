@@ -47,13 +47,13 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 All the application routes are defined in the [index.php](public/index.php) file inside the "public" folder.
 
 ## API Endpoints:
-> ***\*\*Check the project's API Collection on my Postman Profile: https://www.postman.com/ahmed-yahya/workspace/my-public-portfolio-postman-workspace/collection/28181483-b75ee244-bbf8-48a9-8a98-9ca3b6c8b036***
+> ***\*\* Check the project's API Collection on my Postman Profile: https://www.postman.com/ahmed-yahya/workspace/my-public-portfolio-postman-workspace/collection/28181483-b75ee244-bbf8-48a9-8a98-9ca3b6c8b036***
 
 GET /api/produtcts &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : Get/Retrieve All produtcs
 
 GET /api/products/{id} : Get/Retrieve a Single product
 
-***\*\*Note: You can test the framework API Endpoints using Postman. Here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file which you can import in your Postman.***
+***\*\* Note: You can test the framework API Endpoints using Postman. Here is the Postman Collection file [Postman Collection](<Postman Collection of API Endpoints/My Plain PHP MVC OOP Framework API.postman_collection.json>) .json file which you can import in your Postman.***
 
 ## Installation & Configuration:
 1- Clone the project or download it.
