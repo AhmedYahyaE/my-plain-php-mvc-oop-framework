@@ -8,6 +8,9 @@ Frontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive D
 
 ![products-index](https://github.com/AhmedYahyaE/my-plain-php-mvc-oop-framework/assets/118033266/3aad01c6-853e-4eaf-8a17-5e4f2a1e8d71)
 
+***MVC Design Pattern:***
+![mvc-design-pattern](https://github.com/AhmedYahyaE/my-plain-php-mvc-oop-framework/assets/118033266/07c610eb-fa16-41ce-99fb-8a3dd841d931)
+
 ## Features:
 1- MVC Design Pattern (Separation of Concerns).
 
