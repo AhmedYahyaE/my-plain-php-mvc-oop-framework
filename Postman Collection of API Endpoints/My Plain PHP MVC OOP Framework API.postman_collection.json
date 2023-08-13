@@ -2,8 +2,10 @@
 	"info": {
 		"_postman_id": "b75ee244-bbf8-48a9-8a98-9ca3b6c8b036",
 		"name": "My Plain PHP MVC OOP Framework API",
+		"description": "This is my personal backend Plain (vanilla) PHP Framework which follows the MVC Design Pattern (Model-View-Controller Architecture), and is entirely Object-oriented (OOP). This robust framework is made to mimic and be mostly similar to the famous Laravel framework. I promise you if you understand the inner workings of this framework, you'll very well understand how Laravel works under the hood. This project script is written entirely in plain PHP (OOP) and aims to demonstrate the implementation of an MVC framework imitating the well-known development market frameworks such as Laravel and CodeIgniter without relying on any external libraries or frameworks.\n\nFrontend technologies used: AJAX, jQuery, JavaScript and Bootstrap (Responsive Design/Mobile First Design).",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "28181483"
+		"_exporter_id": "28181483",
+		"_collection_link": "https://www.postman.com/ahmed-yahya/workspace/my-public-portfolio-postman-workspace/collection/28181483-b75ee244-bbf8-48a9-8a98-9ca3b6c8b036?action=share&source=collection_link&creator=28181483"
 	},
 	"item": [
 		{
